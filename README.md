@@ -26,16 +26,16 @@ A lightweight yet powerful photo asset management script for long-term use.
 - 执行统计分析
 
 # 项目结构
-
-project/
-│
-├── do.py（主程序）
-├── undo.py（回撤程序）
-├── device_map.json（设备配置文件）
-├── photographer_map.json（摄影师配置文件）
-│
-└── logs/（日志文件夹）
-
+   
+project/   
+│   
+├── do.py（主程序）   
+├── undo.py（回撤程序）   
+├── device_map.json（设备配置文件）   
+├── photographer_map.json（摄影师配置文件）   
+│   
+└── logs/（日志文件夹）   
+   
 # 功能特性
 
 ## 1. 多种命名模式
