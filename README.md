@@ -1,5 +1,5 @@
 # PhotoLedger
-一个面向长期使用的轻量级照片资产管理脚本。
+一个面向长期使用的轻量级照片资产管理脚本。   
 A lightweight yet powerful photo asset management script for long-term use.
 
 **注：全程使用ChatGPT编写。**
@@ -7,6 +7,7 @@ A lightweight yet powerful photo asset management script for long-term use.
 # 项目简介
 
 这是一个用于**批量整理照片与视频文件**的Python工具。   
+   
 核心目标是解决：   
 
 - 文件命名混乱
@@ -47,12 +48,12 @@ A lightweight yet powerful photo asset management script for long-term use.
 
 ### 4.仅写作者（不改名）
 
+仅更改照片的EXIF信息中摄影师一项，可作为前三模式附加运行。   
+   
 支持格式：
 - JPG / JPEG（标准EXIF）
 - PNG（文本元数据）
-
-仅更改照片的EXIF信息中摄影师一项，可作为前三模式附加运行。
-
+   
 **注：命令行模式仅支持输入摄影师检查，详细请手动配置*photographer_map.json*以完成摄影师简称与完整姓名的对应。**
 
 ## 2. 日志系统
