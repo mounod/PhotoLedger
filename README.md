@@ -1,4 +1,5 @@
 # PhotoLedger
+   
 一个面向长期使用的轻量级照片资产管理脚本。   
 A lightweight yet powerful photo asset management script for long-term use.
 
@@ -71,9 +72,9 @@ A lightweight yet powerful photo asset management script for long-term use.
 ## 3. 统计分析
 
 执行结束输出：   
-成功: X   
-忽略: X   
-失败: X   
+- 成功: X   
+- 忽略: X   
+- 失败: X   
 并记录：   
 - 忽略原因
 - 失败原因
