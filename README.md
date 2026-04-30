@@ -137,7 +137,6 @@ python do.py
 ```
 
 ## 3.撤销操作
-
 ```bash
 python undo.py
 ```
@@ -147,10 +146,12 @@ python undo.py
 ---
 
 # 支持格式
+
 - 图片：JPG / JPEG / PNG / HEIC
 - 视频：MP4 / MOV
 
 # 注意事项
+
 - 建议先在测试文件夹运行
 - Undo 依赖日志，请勿删除 logs 文件夹
 - PNG 会重写元数据（保留图像内容）
