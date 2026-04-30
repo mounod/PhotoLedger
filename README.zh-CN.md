@@ -73,22 +73,25 @@ pip install exifread piexif pillow
 
 # 使用方法
 
-1.运行主脚本
-
-`python main.py`
-
-2.输入示例：
+## 1.运行主脚本
 ```bash
-路径：D:\Photos
-模式：1
-附加写作者？(y/n)：y
-摄影师key：cxr
-确认执行？(y/n)：y
+python do.py
 ```
 
-3.撤销操作
+## 2.输入示例：
+```bash
+路径：D:\Photos   
+模式：1   
+附加写作者？(y/n)：y   
+摄影师key：cxr   
+确认执行？(y/n)：y   
+```
 
-`python undo.py`
+## 3.撤销操作
+
+```bash
+python undo.py
+```
 输入日志路径：
 `logs/run_20260430_123456.log`
 
