@@ -1,6 +1,13 @@
+# PhotoLedger
+一个面向长期使用的轻量级照片资产管理脚本。
+A lightweight yet powerful photo asset management script for long-term use.
+
+**注：全程使用ChatGPT编写。**
+
 # 项目简介
 
-这是一个用于**批量整理照片与视频文件**的Python工具，核心目标是解决：
+这是一个用于**批量整理照片与视频文件**的Python工具。   
+核心目标是解决：   
 
 - 文件命名混乱
 - 时间信息不统一
