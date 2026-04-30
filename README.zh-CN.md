@@ -16,8 +16,6 @@
 - 一键撤销（Undo）
 - 执行统计分析
 
----
-
 # ⚙️ 功能特性
 
 ## 1. 多种命名模式
@@ -29,15 +27,12 @@
 | 3 | 手动日期 + 序号 |
 | 4 | 仅写作者（不改名） |
 
----
 
 ## 2. EXIF 作者写入
 
 支持格式：
 - JPG / JPEG（标准EXIF）
 - PNG（文本元数据）
-
----
 
 ## 3. 日志系统
 
@@ -51,8 +46,6 @@ logs/run_YYYYMMDD_HHMMSS.log
 - 错误信息
 - 完整统计
 
----
-
 ## 4. 统计分析
 
 执行结束输出：
@@ -62,7 +55,6 @@ logs/run_YYYYMMDD_HHMMSS.log
 并记录：
 - 忽略原因
 - 失败原因
----
 
 ## 5. Undo 回滚
 
@@ -73,12 +65,11 @@ logs/run_YYYYMMDD_HHMMSS.log
 
 完全基于日志，安全可靠。
 
----
-
 # 安装依赖
 
 ```bash
 pip install exifread piexif pillow
+```
 
 # 使用方法
 
@@ -87,12 +78,13 @@ pip install exifread piexif pillow
 `python main.py`
 
 2.输入示例：
-```
+```bash
 路径：D:\Photos
 模式：1
 附加写作者？(y/n)：y
 摄影师key：cxr
 确认执行？(y/n)：y
+```
 
 3.撤销操作
 
