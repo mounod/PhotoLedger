@@ -5,4 +5,4 @@ A lightweight yet powerful photo asset management script for long-term use.
 - 🇨🇳 中文说明 👉 [README.zh-CN.md](README.zh-CN.md)
 - 🇬🇧 English version 👉 [README.en.md](README.en.md)
 
-- 注：全程使用ChatGPT编写。
+注：全程使用ChatGPT编写。
